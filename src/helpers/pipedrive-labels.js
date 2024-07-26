@@ -1,0 +1,290 @@
+
+// export const airtableByTelegram = {
+//   khayrullosss: 'rec1DTVvZNzuxJJab',
+//   anaza2308: 'rec3hFbrB1V5ujlPj',
+//   laylith: 'rec5v1R03wSpDCict',
+//   // undefined": "recyOmMuHFcLvp7Dg",
+//   katjaezerskaja: 'rec7s5jHLNqB0fi5u',
+//   malikadlt: 'rec7zOMZuSDrjspqL',
+//   artemstarchkov: 'rec9fpKd1StegPyum',
+//   luyms: 'recADZpGkIKKy8QMN',
+//   oniko777: 'recBhkEDfYMr109Do',
+//   soofvee: 'recBlBZsdkG2Lg85A',
+//   vveur: 'recC4WE8ypsM2OF9V',
+//   danamaralkyzy: 'recCQhYefeA5wChYF',
+//   adiyaturgan: 'recELnsCiAf8e1Wm5',
+//   ksenia_dr: 'recFXIJmPBPykTvuf',
+//   no148: 'recH1MgAPM85HyWhB',
+//   albinabychkova: 'recHMm3iuK59x8dEn',
+//   tonydzi: 'recIqM1j6Ikawpjib',
+//   frogwithgreenbelly: 'recNRhQhV4H6THxfn',
+//   ecaterina_c: 'recSpOHckL2tOYX41',
+//   eva935: 'recT5WQQNXMUe9glC',
+//   eniriya: 'recTlILPMQTSAxULJ',
+//   annyann8: 'recUOuhrF12Rr1xdb',
+//   manizhaash: 'recWQFmNFOZn0zgge',
+//   kari_ee: 'recYks7h25gyrznVx',
+//   violet_888: 'recbS7iULie63G6gY',
+//   marinappl: 'recd3xaKD6VSRMPl5',
+//   sanglina: 'recdt8HjlM40TPPND',
+//   eliz_sidorova: 'recfTvEuIBiOnUVGp',
+//   yuliia_filin: 'recgteyVz3zpUapiT',
+//   dudov_s: 'rechrPw4QEnSXdYrK',
+//   fedor_platinum: 'reciSOp9I9BoCag3S',
+//   ollzhas: 'reckSqMrXb8D4guhl',
+//   gbmikaelian: 'reckh7TROsFmkThtM',
+//   khilinichenko: 'recl2XEyRlgsksgL1',
+//   natalya_le: 'recmoBb5PsZ4KFMDb',
+//   tgaru: 'reczKQvbj6HNHDDNJ',
+//   olyaneko: 'recoI75EmqH80h24O',
+//   yulia_petrushenko: 'recptbLS9h7PWtVXQ',
+//   kuznetsova765: 'recvJfiuHbbvwQWxX',
+//   natalie_ave: 'recwDsAHe4yIqY5jl',
+//   cicinderella: 'recwPuEQfdTNsiOBC',
+// }
+
+export const labelsPerson = [
+  {
+    id: 0,
+    label: 'No label',
+    color: 'grey',
+  },
+  {
+    id: 5,
+    label: 'Customer',
+    color: 'green',
+  },
+  {
+    id: 6,
+    label: 'Hot lead',
+    color: 'red',
+  },
+  {
+    id: 7,
+    label: 'Warm lead',
+    color: 'yellow',
+  },
+  {
+    id: 8,
+    label: 'Cold lead',
+    color: 'blue',
+  },
+  {
+    id: 34,
+    label: 'Not important',
+    color: 'yellow',
+  },
+  {
+    id: 64,
+    label: 'Youtuber',
+    color: 'red',
+  },
+  {
+    id: 66,
+    label: 'KOL/Shiller',
+    color: 'yellow',
+  },
+  {
+    id: 69,
+    label: 'IT',
+    color: 'gray',
+  },
+  {
+    id: 86,
+    label: 'VIP lead Just for Anton',
+    color: 'red',
+  },
+  {
+    id: 89,
+    label: 'Launchpad',
+    color: 'gray',
+  },
+  {
+    id: 90,
+    label: 'Incubator/Accelerator',
+    color: 'yellow',
+  },
+  {
+    id: 91,
+    label: 'Company (project NOT VC)',
+    color: 'purple',
+  },
+  {
+    id: 92,
+    label: 'Syndicate',
+    color: 'red',
+  },
+  {
+    id: 93,
+    label: 'Angel',
+    color: 'red',
+  },
+  {
+    id: 94,
+    label: 'Exchange',
+    color: 'blue',
+  },
+  {
+    id: 114,
+    label: 'ORDINARY',
+    color: 'gray',
+  },
+  {
+    id: 115,
+    label: 'LEGAL',
+    color: 'yellow',
+  },
+  {
+    id: 117,
+    label: 'CANDIDATE EXPERT Judge Mentor Advisor',
+    color: 'red',
+  },
+  {
+    id: 118,
+    label: 'Smart Money',
+    color: 'yellow',
+  },
+  {
+    id: 123,
+    label: 'MM',
+    color: 'pink',
+  },
+  {
+    id: 136,
+    label: 'VC',
+    color: 'green',
+  },
+  {
+    id: 138,
+    label: 'Investor',
+    color: 'orange',
+  },
+  {
+    id: 144,
+    label: 'KOL/Influenser',
+    color: 'green',
+  },
+];
+
+export const labelsOrg = [
+  {
+    id: null,
+    label: 'No label',
+    color: 'grey',
+  },
+  {
+    id: 1,
+    label: 'Customer',
+    color: 'green',
+  },
+  {
+    id: 2,
+    label: 'Hot lead',
+    color: 'red',
+  },
+  {
+    id: 3,
+    label: 'Warm lead',
+    color: 'yellow',
+  },
+  {
+    id: 4,
+    label: 'Cold lead',
+    color: 'blue',
+  },
+  {
+    id: 24,
+    label: 'Alina Linkedin',
+    color: 'gray',
+  },
+  {
+    id: 25,
+    label: 'Vlad Linkedin',
+    color: 'green',
+  },
+  {
+    id: 26,
+    label: 'Alima Linkedin',
+    color: 'blue',
+  },
+  {
+    id: 27,
+    label: 'Meko Linkedin',
+    color: 'purple',
+  },
+  {
+    id: 28,
+    label: 'Albina Linkedin',
+    color: 'gray',
+  },
+  {
+    id: 44,
+    label: 'VC',
+    color: 'green',
+  },
+  {
+    id: 61,
+    label: 'Launchpad',
+    color: 'yellow',
+  },
+  {
+    id: 62,
+    label: 'Exchange',
+    color: 'red',
+  },
+  {
+    id: 63,
+    label: 'Media',
+    color: 'blue',
+  },
+  {
+    id: 65,
+    label: 'KOL/Shiller',
+    color: 'red',
+  },
+  {
+    id: 70,
+    label: 'IT',
+    color: 'blue',
+  },
+  {
+    id: 102,
+    label: 'ORDINARY',
+    color: 'gray',
+  },
+  {
+    id: 103,
+    label: 'ANGEL',
+    color: 'blue',
+  },
+  {
+    id: 104,
+    label: 'PROJECT',
+    color: 'gray',
+  },
+  {
+    id: 110,
+    label: 'Gaming (NOT WEB3)',
+    color: 'purple',
+  },
+  {
+    id: 111,
+    label: 'GameFi',
+    color: 'gray',
+  },
+  {
+    id: 112,
+    label: 'Incubator/Accelerator',
+    color: 'blue',
+  },
+  {
+    id: 113,
+    label: 'Market Making',
+    color: 'yellow',
+  },
+  {
+    id: 116,
+    label: 'Recruitment',
+    color: 'purple',
+  },
+];
